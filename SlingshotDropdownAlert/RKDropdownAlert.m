@@ -57,7 +57,7 @@ NSString *DEFAULT_TITLE;
         
         //%%% title setup (the bolded text at the top of the view)
         titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(X_BUFFER, STATUS_BAR_HEIGHT, frame.size.width-2*X_BUFFER, 30)];
-        [titleLabel setFont:[UIFont fontWithName:@"Arial-BoldMT" size:FONT_SIZE]];
+        [titleLabel setFont:[UIFont fontWithName:@"Avenir-Light" size:FONT_SIZE]];
         titleLabel.textColor = defaultTextColor;
         titleLabel.textAlignment = NSTextAlignmentCenter;
         [self addSubview:titleLabel];
